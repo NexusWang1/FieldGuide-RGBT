@@ -1,5 +1,7 @@
 # FieldGuide: Plume-Shift Fire-Source Field Guidance for Smoke Retrieval in UAV RGB-Thermal Early Fire Detection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22646595.svg)](https://doi.org/10.5281/zenodo.22646595)
+
 Official code for the IEEE GRSL letter:
 
 > **Plume-Shift Fire-Source Field Guidance for Smoke Retrieval in UAV RGB-Thermal Early Fire Detection**
@@ -120,13 +122,8 @@ python scripts/eval_small_ap_cofire.py --weights <run>/weights/best.pt ...
 Per-class (two-run means): smoke 72.49→72.91, fire 60.45→60.55, person 59.17→59.05,
 small smoke 14.82→15.04.
 
-## Data
-
-RGBT-3M is owned by its original authors (Qiao et al., IEEE TIE 2024); please obtain it
-from the official source and follow its license and citation requirements. FLAME2 and the
-M300 wildfire dataset are likewise third-party datasets. This repo does not re-host them.
-
 ## License
 
 This project builds on Ultralytics and is distributed under the **AGPL-3.0** license,
-inherited from Ultralytics.
+inherited from Ultralytics. Datasets (RGBT-3M, FLAME2) are owned by their respective
+authors; please follow their licenses and citations.
