@@ -1,0 +1,13 @@
+# RGBT-3M data config (template) — RGB+IR paired, 6-channel input
+# 将 path 改为你的 RGBT-3M 解压目录；ir_images 为 RGB 同级的红外帧目录名
+
+path: /path/to/RGBT-3M/RGBT
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names: ['smoke', 'fire', 'person']
+
+channels: 6
+ir_images: image
